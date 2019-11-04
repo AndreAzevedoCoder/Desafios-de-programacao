@@ -17,7 +17,6 @@ namespace _28__AgendaTelefonica
             string aniversario = Console.ReadLine();
             Registro cliente1 = new Registro(nome,telefone,aniversario);
             registros.Add(cliente1);
-            System.Console.WriteLine(registros[0].nome);
 
             
         }

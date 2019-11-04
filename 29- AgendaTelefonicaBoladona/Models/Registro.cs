@@ -2,9 +2,9 @@ using System;
 namespace _29__AgendaTelefonicaBoladona.Models{
     class Registro
         {
-            private string Nome {get;set;}
-            private string Telefone {get;set;}
-            private string Aniversario {get;set;}
+            public string Nome {get;set;}
+            public string Telefone {get;set;}
+            public string Aniversario {get;set;}
 
             public Registro(string nome, string telefone, string aniversario){
                 this.Nome = nome;
